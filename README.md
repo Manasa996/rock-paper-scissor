@@ -17,6 +17,7 @@ CSS
 JavaScript
 
 🌍 Live Demo
+https://rad-cajeta-1bd945.netlify.app/
 
 📜 Game Rules
 Rock beats Scissors
