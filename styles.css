@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: brown;
+    color: white;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.options {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.option {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.option:hover {
+    background-color: blue;
+    border-radius: 48%;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.score {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    text-align: center;
+}
+
+#userScore,
+#compScore {
+    font-size: 2.5rem;
+}
+
+.message {
+    font-size: 1.5rem;
+}
+
+.msg {
+    background-color: #3063ab;
+    border-radius: 10px;
+    color: white;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    gap: 1.5rem;
+    justify-content: center;
+    text-align: center;
+    padding: 0 5px 0 5px;
+}
